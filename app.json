@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/chat/chat-detail",
+    "pages/index/index",
+    "pages/person/person"
+  ],
+
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/chat/chat-detail",
+      "text": "聊天",
+      "iconPath": "/images/b.png",
+      "selectedIconPath": "/images/b1.png"
+    },
+    {
+     "pagePath": "pages/index/index",
+     "text": "主页",
+     "iconPath": "/images/c2.png",
+     "selectedIconPath": "/images/c1.png"
+    },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "/images/a.png",
+        "selectedIconPath": "/images/a1.png"
+      }
+    ]
+  }
+}
